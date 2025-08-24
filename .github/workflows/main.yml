@@ -15,4 +15,3 @@ jobs:
         env:
           SONAR_HOST_URL: ${{ secrets.SONARQUBE_HOST2 }} # Usa la variable de entorno
           SONAR_TOKEN: ${{ secrets.SONARQUBE_TOKEN2 }}       # Usa la variable de entorno
-
